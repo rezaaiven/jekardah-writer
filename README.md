@@ -41,6 +41,7 @@ bersihin pola AI, baru adjust voice Jabodetabek secukupnya.
 | `hook-gokil` | Cari hook yang bikin berhenti scroll tanpa ngarang payoff |
 | `no-ai-slop` | Buang pembukaan kaleng, hiperbola, dan ritme yang terlalu mesin |
 | `tutur-jabodetabek-urban` | Kasih register lokal tanpa cosplay slang atau stereotip wilayah |
+| `voice-conversational-english` | Conversational professional English buat LinkedIn article/post dan script video |
 
 ## Before → After
 
@@ -103,6 +104,16 @@ Prompt paling simpel:
 Pakai review-rewrite-content. Mode: auto.
 Review dan rewrite draft di bawah ini. Pertahankan semua fakta, link, dan CTA.
 Target voice: neutral Jabodetabek profesional.
+
+[tempel draft]
+```
+
+Buat konten English (LinkedIn article/post atau script video):
+
+```text
+Pakai review-rewrite-content. Mode: auto.
+Review dan rewrite draft di bawah ini. Pertahankan semua fakta, link, dan CTA.
+Target voice: linkedin-article (conversational professional English).
 
 [tempel draft]
 ```

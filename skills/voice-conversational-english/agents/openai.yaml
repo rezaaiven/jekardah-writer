@@ -1,0 +1,4 @@
+interface:
+  display_name: "Voice Conversational English"
+  short_description: "Conversational professional English for articles, posts, and video scripts."
+  default_prompt: "Use $voice-conversational-english to adapt this text into natural conversational professional English without changing facts or claims."

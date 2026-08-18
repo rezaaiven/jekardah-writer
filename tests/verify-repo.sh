@@ -11,7 +11,7 @@ for file in \
   [ -f "$ROOT/$file" ] || fail "missing $file"
 done
 
-for skill in review-rewrite-content hook-gokil no-ai-slop tutur-jabodetabek-urban; do
+for skill in review-rewrite-content hook-gokil no-ai-slop tutur-jabodetabek-urban voice-conversational-english; do
   [ -f "$ROOT/skills/$skill/SKILL.md" ] || fail "missing canonical skill $skill"
 done
 
